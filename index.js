@@ -97,8 +97,6 @@ const actions = bindActionCreators({
     restockCake,orderIcecream,restockIcecream
 },  store.dispatch);
 actions.orderCake();
-actions.orderCake();
-actions.orderCake();
 actions.restockCake(4);
 actions.orderIcecream();
 actions.restockIcecream(4);

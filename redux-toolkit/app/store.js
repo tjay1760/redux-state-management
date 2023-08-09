@@ -3,7 +3,7 @@ const cakeReducer = require('../features/cake/cakeSlice')
 const icecreamReducer = require('../features/icecream/icecreamSlice')
 const reduxLogger = require('redux-logger')
 const logger = reduxLogger.createLogger()
-const userReducer = require('../features/user/userReducer')
+const userReducer = require('../user/userSlice')
 const store = configureStore({
     reducer:{
             cake: cakeReducer,
